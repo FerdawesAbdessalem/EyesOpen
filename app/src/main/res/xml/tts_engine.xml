@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tts-engine xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Engine Settings -->
+    <engine
+        android:name="com.programminghut.realtime_object"
+        android:label="Custom TTS Engine" />
+
+    <!-- Other Settings -->
+    <!-- Add any additional configuration settings for the TextToSpeech engine -->
+
+</tts-engine>
