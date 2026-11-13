@@ -1,3 +1,40 @@
 <resources>
-    <string name="app_name">OpenEyes</string>
+    <string name="app_name">EyesOpen</string>
+
+    <!-- Home -->
+    <string name="home_title">EyesOpen</string>
+    <string name="home_tagline">Votre assistant visuel : la caméra reconnaît les objets autour de vous et vous les décrit à voix haute.</string>
+    <string name="start">Démarrer</string>
+    <string name="start_description">Démarrer la détection des objets avec la caméra</string>
+    <string name="settings">Réglages</string>
+    <string name="setting_voice">Annonces vocales</string>
+    <string name="setting_position">Indiquer la position (gauche, devant, droite)</string>
+    <string name="setting_vibrate">Vibrer à chaque nouvel objet</string>
+    <string name="setting_confidence">Précision minimale</string>
+    <string name="confidence_value">%1$d %%</string>
+    <string name="confidence_hint">Plus elle est haute, moins il y a d\'erreurs, mais certains objets peuvent être ignorés.</string>
+    <string name="privacy_note">Tout est analysé sur le téléphone : aucune image n\'est envoyée sur internet.</string>
+    <string name="welcome_spoken">Bienvenue dans EyesOpen. Appuyez sur le grand bouton jaune en bas de l\'écran pour démarrer.</string>
+
+    <!-- Detector -->
+    <string name="back">Retour</string>
+    <string name="scanning">Recherche d\'objets…</string>
+    <string name="describe">Que vois-je ?</string>
+    <string name="describe_description">Décrire à voix haute tout ce que la caméra voit maintenant</string>
+    <string name="voice_on">Voix activée</string>
+    <string name="voice_off">Voix coupée</string>
+    <string name="torch_on">Allumer la lampe</string>
+    <string name="torch_off">Éteindre la lampe</string>
+    <string name="position_left">à gauche</string>
+    <string name="position_ahead">devant vous</string>
+    <string name="position_right">à droite</string>
+    <string name="very_close">très proche</string>
+    <string name="and_word">et</string>
+    <string name="nothing_detected">Je ne reconnais aucun objet pour le moment.</string>
+    <string name="permission_title">Accès à la caméra nécessaire</string>
+    <string name="permission_needed">EyesOpen a besoin de la caméra pour reconnaître les objets. Appuyez sur Autoriser.</string>
+    <string name="allow">Autoriser</string>
+    <string name="camera_error">Impossible d\'ouvrir la caméra.</string>
+    <string name="model_error">Le modèle de détection n\'a pas pu être chargé.</string>
+    <string name="camera_preview_description">Aperçu de la caméra avec les objets détectés</string>
 </resources>
